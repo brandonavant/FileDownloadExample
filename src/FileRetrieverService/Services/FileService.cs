@@ -13,7 +13,7 @@ namespace FileRetrieverService.Services
 
             // Note: You must have the Docker container running for ThirdPartyFileHost.
             // If you wish to access this from outside of the docker-compose network,
-            // use http://localhost:5000/file instead.
+            // use http://localhost:5000 instead.
             _httpClient.BaseAddress = new Uri("http://third-party-file-host-api"); 
         }
 
