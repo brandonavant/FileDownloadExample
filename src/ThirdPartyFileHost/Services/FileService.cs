@@ -6,7 +6,7 @@ namespace ThirdPartyFileHost.Services
     {
         public Task<byte[]> GetFileById(int fileId)
         {
-            return File.ReadAllBytesAsync($"Files\\{fileId}.txt");
+            return File.ReadAllBytesAsync($"Files//{fileId}.txt");
         }
     }
 }

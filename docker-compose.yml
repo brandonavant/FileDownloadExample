@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  third-party-file-host-api:
+    container_name: third-party-file-host-api
+    build:
+      context: ./src/ThirdPartyFileHost
+      dockerfile: Dockerfile
+    networks:
+      - file-download-example-network
+    ports:
+      - "5000:80"
+networks:
+  file-download-example-network:
