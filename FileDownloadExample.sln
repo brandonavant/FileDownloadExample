@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D3AD797A-E99D-4F8B-AB57-A24EA9706DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileRetrieverService", "src\FileRetrieverService\FileRetrieverService.csproj", "{CF15DEAC-45BE-42B0-847C-2174E30CF59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyFileHost", "src\ThirdPartyFileHost\ThirdPartyFileHost.csproj", "{3E7FBBDC-DEDA-4628-839D-48F26D23E942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF15DEAC-45BE-42B0-847C-2174E30CF59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF15DEAC-45BE-42B0-847C-2174E30CF59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF15DEAC-45BE-42B0-847C-2174E30CF59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF15DEAC-45BE-42B0-847C-2174E30CF59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7FBBDC-DEDA-4628-839D-48F26D23E942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7FBBDC-DEDA-4628-839D-48F26D23E942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7FBBDC-DEDA-4628-839D-48F26D23E942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7FBBDC-DEDA-4628-839D-48F26D23E942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF15DEAC-45BE-42B0-847C-2174E30CF59F} = {D3AD797A-E99D-4F8B-AB57-A24EA9706DFD}
+		{3E7FBBDC-DEDA-4628-839D-48F26D23E942} = {D3AD797A-E99D-4F8B-AB57-A24EA9706DFD}
+	EndGlobalSection
+EndGlobal
