@@ -10,5 +10,14 @@ services:
       - file-download-example-network
     ports:
       - "5000:80"
+  file-retriever-service-api:
+    container_name: file-retriever-service-api
+    build:
+      context: ./src/FileRetrieverService
+      dockerfile: Dockerfile
+    networks:
+      - file-download-example-network
+    ports:
+      - "5001:80"
 networks:
   file-download-example-network:
